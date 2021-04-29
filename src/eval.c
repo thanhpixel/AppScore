@@ -1,9 +1,13 @@
-#include "score.h"
+/*
+ *      Author: Thanh Van
+ *  Created on: April 2021
+ */
+
+#include "../include/score.h"
 
 void evaluation(int *scores, int *marks){
-	int i;
-
-	for(i=0; i<MAX; i++){
+	/* Give evaluation marks based on the scores input */
+	for(int i=0; i<MAX; i++){
 		if(scores[i]>=0 && scores[i]<50) marks[i] = 0;
         else if(scores[i]>=50 && scores[i]<=60) marks[i] = 1;
         else if(scores[i]>60 && scores[i]<=70) 	marks[i] = 2;

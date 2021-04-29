@@ -1,4 +1,5 @@
-OBJ = main.o getscore.o eval.o classify.o output.o
+SRC = src/
+OBJ = main.o $(SRC)getscore.o $(SRC)eval.o $(SRC)classify.o $(SRC)output.o
 APPNAME = scoreApp
 
 test : $(APPNAME)

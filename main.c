@@ -1,4 +1,9 @@
-#include "score.h"
+/*
+ *      Author: Thanh Van
+ *  Created on: April 2021
+ */
+
+#include "include/score.h"
 
 void main(){
 	int scores[MAX] = {0}, marks[MAX] = {0};
