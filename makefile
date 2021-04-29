@@ -1,4 +1,4 @@
-OBJ = main.o getscore.o
+OBJ = main.o getscore.o eval.o classify.o output.o
 APPNAME = scoreApp
 
 test : $(APPNAME)
